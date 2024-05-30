@@ -1,0 +1,1099 @@
+@font-face {
+    font-family: Varela;
+    src: url('../assets/base/VarelaRound-Regular.ttf') format('truetype');
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Varela;
+    scroll-behavior: smooth;
+}
+.alert{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+}
+footer{
+    font-size: 36px;
+}
+footer a{
+    margin: 5px 20px;
+}
+/* ---------------- Animista ------------------------ */
+.puff-in-center {
+	-webkit-animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+ @-webkit-keyframes puff-in-center {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes puff-in-center {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+/* ---------------- Animista ------------------------ */
+/* ---------------- index.php ------------------------ */
+.bannerindex{
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px 10px;
+    border-radius: 2rem;
+    background-color: #FFF;
+    border: 3px solid #6c5ce7;
+}
+.bannerindex .mainmenu{
+    color: #000;
+}
+.bannerindex .mainmenu p{
+    font-size: 44px;
+    font-weight: bolder;
+}
+.bannerindex .mainmenu span{
+    font-size: 14px;
+}
+.bannerindex .mainmenu cite{
+    font-size: 26px;
+    color: #b2bec3;
+}
+.bannerindex .msg{
+    margin: 5px auto;
+}
+.bannerindex .formlogin{
+    width: 375px;
+    margin: 20px auto;
+}
+.bannerindex .formlogin .formmodel label{
+    font-size: 20px;
+    color: #fd79a8;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.bannerindex .formlogin .formmodel input{
+    border: 1px solid #a29bfe;
+}
+.css-button-rounded--sky {
+    width: 85%;
+    margin-top: 20px;
+    color: #fff;
+    padding: 9px 5px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #4433ff;
+    background: #4433ff;
+}
+.css-button-rounded--sky:hover {
+    background: #fff;
+    color: #4433ff;
+}
+.systemsupport {
+    color: #fd79a8;
+    margin-top: 20px;
+}
+/* ---------------- index.php ------------------------ */
+/* ------------------------------------------------------ Error404 ---------------------------------------------------------- */
+.errorall{
+    margin: 100px auto;
+    padding: 10px;
+    width: 60%;
+    border-radius: 1rem;
+    background-color: #dfe6e9;
+    color: #000;
+}
+.errorall p{
+    color: #747d8c;
+}
+.errorall a{
+    text-decoration: none;
+    font-size: 24px;
+}  
+.errorall code{
+    background-color: #222f3e;
+    padding: 15px 25px;
+    border-radius: 1rem;
+}
+/* ------------------------------------------------------ Error404 ---------------------------------------------------------- */
+/* ------------------------------------------------------ SystemUser ---------------------------------------------------------- */
+/* ------ dashboard ----- */
+.dashboardicons{
+    margin-top: 20px;
+}
+.dashboardicons h2{
+    width: 40%;
+    padding: 15px;
+    background-color: #778ca3;
+    color: #fff;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    box-shadow: 0px 8px #2c3e50;
+}
+.dashboardicons small{
+    margin-left: 50px;
+    font-size: 12px;
+    color: #7f8c8d;
+}
+.dashboardicons .alert{
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+}
+.dashboardicons .container .row .col{
+    padding: 20px 5px;
+    margin: 10px 15px;
+    border-radius: 3rem;
+    text-decoration: none;
+}
+.dashboardicons .container .row .col strong{
+    font-size: 62px;
+}
+/* ------ dashboard ----- */
+/* ------ dashboard icons buttons ----- */
+.dashboardicons .container .row .col:nth-child(1){
+    background-color: #C1F1DA;
+    color: #05C46B;
+    border: solid 4px #05C46B;
+}
+.dashboardicons .container .row .col:nth-child(1):hover{
+    background-color: #82E2B5;
+    color: #4b6584;
+    border: solid 4px #4b6584;
+}
+.dashboardicons .container .row .col:nth-child(2){
+    background-color: #FFEAC0;
+    color: #FFA801;
+    border: solid 4px #FFA801;
+}
+.dashboardicons .container .row .col:nth-child(2):hover{
+    background-color: #FFD480;
+    color: #4b6584;
+    border: solid 4px #4b6584;
+}
+.dashboardicons .container .row .col:nth-child(3){
+    background-color: #FFCFCC;
+    color: #FF3F34;
+    border: solid 4px #FF3F34;
+}
+.dashboardicons .container .row .col:nth-child(3):hover{
+    background-color: #FF9F99;
+    color: #4b6584;
+    border: solid 4px #4b6584;
+}
+.dashboardicons .container .row .col:nth-child(4){
+    background-color: #E0E3E6;
+    color: #808E9B;
+    border: solid 4px #808E9B;
+}
+.dashboardicons .container .row .col:nth-child(4):hover{
+    background-color: #C0C7CD;
+    color: #4b6584;
+    border: solid 4px #4b6584;
+}
+/* ------ dashboard icons buttons ----- */
+/* ------ buttons aside ----- */
+.buttonsinteract{
+    width: 50%;
+    margin: 45px auto;
+}
+.buttonsinteract h2{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #34495e;
+    color: #fff;
+    font-size: 48px;
+    box-shadow: 0px 10px #2c3e50;
+    border-radius: 3rem;
+}
+.buttonsinteract a{
+    width: 40%;
+    margin: 30px 20px;
+    font-size: 28px;
+    padding: 20px 10px;
+}
+/* ------ buttons aside ----- */
+/* ------ cracha area ----- */
+.userview{
+    width: 80%;
+    margin: 5px auto;
+}
+.userview h1{
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px 5px;
+    color: #fff;
+    background-color: #778ca3;
+    border-radius: 1rem;
+}
+.userview .card{
+    width: 375px;
+    margin: 20px auto;
+    color: #fff;
+    background-color: #273c75;
+}
+.userview .card p{
+    font-size: 32px;
+}
+.userview .card ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    padding: 0px 20px;
+}
+.userview .card .card-header{
+    background-color: #192a56;
+}
+.userview .card .card-footer{
+    background-color: #192a56;
+}
+/* ------ cracha area ----- */
+/* ------------------------------------------------------ SystemUser ---------------------------------------------------------- */
+/* --------------------------------------------------- Change Password -------------------------------------------------------- */
+.formpassword{
+    width: 70%;
+    margin-left: 300px;
+}
+.formpassword strong{
+    font-size: 46px;
+}
+.formpassword .alert{
+    width: 70%;
+    font-size: 22px;
+    margin: 10px auto;
+}
+.formpassword ul{
+    margin-bottom: 0px;
+    list-style-type: none;
+}
+.formpassword label{
+    font-size: 24px;
+    font-weight: bold;
+}
+.formpassword .form-control{
+    width: 40%;
+    margin: 15px auto;
+}
+.formpassword button{
+    width: 40%;
+    padding: 15px 5px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/* --------------------------------------------------- Change Password -------------------------------------------------------- */
+/* ------------------------------------------------------ My Profile ---------------------------------------------------------- */
+.profileinfo{
+    width: 60%;
+    margin-left: 300px;
+}
+.profileinfo h1{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    background-color: #34495e;
+    box-shadow: 0px 8px #2c3e50;
+    color: #fff;
+}
+.profileinfo .formprofile{
+    width: 60%;
+    margin: 20px auto;
+}
+.profileinfo .formprofile label{
+    font-size: 28px;
+    font-weight: bold;
+    color: #34495e;
+}
+.profileinfo .formprofile input{
+    margin-bottom: 20px;
+}
+.profileinfo .formprofile button{
+    font-size: 24px;
+}
+.emailcheck{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+/* ------------------------------------------------------ My Profile ---------------------------------------------------------- */
+/* ---------------------------------------------------- CorporatePage ---------------------------------------------------------- */
+.cardstool{
+    width: 60%;
+    margin-left: 300px;
+}
+.cardstool h1{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    background-color: #34495e;
+    box-shadow: 0px 8px #2c3e50;
+    color: #fff;
+}
+.cardstool .css-button-3d--sky{
+    width: 300px;
+    margin: 30px 20px;
+    color: #fff;
+    padding: 40px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
+}
+.cardstool .css-button-3d--sky h5{
+    font-size: 32px;
+}
+.cardstool .css-button-3d--sky:hover{
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+}
+.cardstool .css-button-3d--sky:active{
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+}
+.cardstool .card{
+    width: 18rem;
+    display: inline-flex;
+    margin: 10px 20px;
+}
+.cardstool .card .card-body .form-cards .card-link{
+    margin-top: 15px;
+}
+#modalanydesk .modal-dialog .modal-content .modal-body .form-cards input{
+    margin-bottom: 15px;
+}
+#modalteamviewer .modal-dialog .modal-content .modal-body .form-cards input{
+    margin-bottom: 15px;
+}
+#modalrealvnc .modal-dialog .modal-content .modal-body .form-cards input{
+    margin-bottom: 15px;
+}
+#modalnetworkuser .modal-dialog .modal-content .modal-body .form-cards input{
+    margin-bottom: 15px;
+}
+/* ---------------------------------------------------- CorporatePage ---------------------------------------------------------- */
+/* ---------------------------------------------------- CreateTicket ---------------------------------------------------------- */
+.createticketheader{
+    width: 55%;
+    margin-left: 300px;
+}
+.createticketheader h1{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    background-color: #34495e;
+    box-shadow: 0px 8px #2c3e50;
+    color: #fff;
+}
+.createticketheader .formticket .container .row .col span{
+    border: 2px solid #a29bfe;
+    color: #fff;
+    background-color: #6c5ce7;
+} 
+.createticketheader .formticket .container .row .col input{
+    border: 2px solid #a29bfe;
+} 
+.createticketheader .formticket .container .row .col textarea{
+    border: 2px solid #a29bfe;
+}
+.createticketheader .formticket .container .row .col select{
+    border: 2px solid #a29bfe;
+}
+.createticketheader .formticket button{
+    width: 60%;
+    font-size: 24px;
+    padding: 15px 5px;
+    margin: 40px auto;
+}
+/* ---------------------------------------------------- CreateTicket ---------------------------------------------------------- */
+/* ---------------------------------------------------- TicketPage ---------------------------------------------------------- */
+.ticketcontent{
+    width: 55%;
+    margin-left: 300px;
+}
+.ticketcontent h3{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    background-color: #6c5ce7;
+    box-shadow: 0px 8px #a29bfe;
+    color: #fff;
+}
+.ticketcontent .container .row .col .input-group input, .ticketcontent .container .row .col .input-group span, .ticketcontent .container .row .col-sm-2 .input-group span, .ticketcontent .container .row .col-sm-2 .input-group input{
+    background-color: #fff;
+    border: solid 2px #a29bfe;
+    color:#6c5ce7;
+}
+.ticketcontent input{
+    background-color: #fff;
+    border: solid 2px #a29bfe;
+    color:#6c5ce7;
+}
+.ticketcontent .container .row h5{
+    color:#6c5ce7;
+}
+.ticketcontent label{
+    color:#6c5ce7;
+}
+.ticketcontent .chatticket{
+    height: 575px;
+    margin-bottom: 13px;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    border: solid 2px #6c5ce7;
+}
+.ticketcontent .chatticket .container .row{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.ticketcontent .chatticket{
+    max-width: 1200px;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.ticketcontent .chatticket .chat-message-left .avatarchatuser{
+    background-color: #b2bec3;
+    padding: 5px 10px;
+    height: 50px;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    box-shadow: -4px 0px #6c5ce7;
+}
+.ticketcontent .chatticket .chat-message-left .titlemessage{
+    font-size: 16px;
+}
+.ticketcontent .chatticket .chat-message-left .titlemessage span{
+    padding: 2px 8px;
+    margin-right: 5px;
+    background-color: #6c5ce7;
+    font-size: 16px;
+    border-radius: 0.8rem;
+    color: #FFF;
+}
+.ticketcontent .chatticket .chat-message-left .message .titlemessage small, .ticketcontent .chatticket .chat-message-left .message small{
+    font-size: 12px;
+    color: #636e72;
+}
+.ticketcontent .chatticket .chat-message-left .message{
+    padding: 10px 15px;
+    background-color: #dfe6e9;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border: 2px solid #6c5ce7;
+}
+.ticketcontent .chatticket .chat-message-left,
+.ticketcontent .chatticket .chat-message-right{
+    display: flex;
+    flex-shrink: 0;
+}
+.ticketcontent .chatticket .chat-message-left p,
+.ticketcontent .chatticket .chat-message-right p{
+    font-size: 12px;
+}
+.ticketcontent .chatticket .chat-message-left{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+.ticketcontent .chatticket .chat-message-right{
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+.ticketcontent .chatticket .chat-message-right .avatarchatuser{
+    background-color: #dfe6e9;
+    padding: 5px 10px;
+    height: 50px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    box-shadow: 4px 0px #2d3436;
+}
+.ticketcontent .chatticket .chat-message-right .titlemessage{
+    font-size: 16px;
+}
+.ticketcontent .chatticket .chat-message-right .titlemessage span{
+    padding: 2px 8px;
+    margin-right: 5px;
+    background-color: #2d3436;
+    font-size: 16px;
+    border-radius: 0.8rem;
+    color: #FFF;
+}
+.ticketcontent .chatticket .chat-message-right .message .titlemessage small, .ticketcontent .chatticket .chat-message-right .message small{
+    font-size: 12px;
+    color: #636e72;
+}
+.ticketcontent .chatticket .chat-message-right .message{
+    padding: 10px 15px;
+    background-color: #FFF;
+    border-top-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border: 2px solid #2d3436;
+}
+.ticketcontent .buttonticketfooter{
+    width: 100%;
+}
+.ticketcontent .buttonticketfooter a{
+    font-size: 22px;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+}
+
+/* ---------------------------------------------------- TicketPage ---------------------------------------------------------- */
+/* ---------------------------------------------------- VerifyEmail ---------------------------------------------------------- */
+.checkemail{
+    width: 60%;
+    margin-left: 300px;
+}
+.checkemail strong{
+    font-size: 46px;
+}
+.checkemail .alert{
+    width: 70%;
+    margin: 10px auto;
+}
+.checkemail label{
+    font-size: 24px;
+    font-weight: bold;
+}
+.checkemail .formvalidateemail{
+    width: 70%;
+    margin: 5px auto;
+}
+.checkemail button{
+    width: 40%;
+    padding: 15px 5px;
+    font-size: 24px;
+    margin: 40px auto;
+}
+.checkemail small{
+    color: #95a5a6;
+}
+/* ---------------------------------------------------- VerifyEmail ---------------------------------------------------------- */
+/* ---------------------------------------------------- Create Account 1 ------------------------------------------------------ */
+.bannercreateac{
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px 10px;
+    border-radius: 2rem;
+    background-color: #FFF;
+    border: 3px solid #6c5ce7;
+}
+.bannercreateac .logobanner{
+    width: 60%;
+    font-size: 28px;
+    margin: 5px auto;
+}
+.bannercreateac .formcreateacc{
+    width: 100%;
+    margin: 10px auto;
+}
+.bannercreateac .formcreateacc h4{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    background-color: #34495e;
+    box-shadow: 0px 8px #2c3e50;
+    color: #fff;
+}
+.bannercreateac .formcreateacc .mb-3{
+    margin-top: 10px;
+}
+.bannercreateac .formcreateacc label{
+    font-size: 18px;
+}
+.bannercreateac .formcreateacc button{
+    width: 90%;
+    margin-left: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 7.5px;
+}
+/* ---------------------------------------------------- Create Account 1 ----------------------------------------------------- */
+/* ---------------------------------------------------- Create Account 2 ----------------------------------------------------- */
+.bannercreateac .formcreateacctwo{
+    width: 100%;
+    margin: 10px auto;
+}
+.bannercreateac .formcreateacctwo h4{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    background-color: #34495e;
+    box-shadow: 0px 8px #2c3e50;
+    color: #fff;
+}
+.bannercreateac .formcreateacctwo .row{
+    margin-bottom: 10px;
+}
+.bannercreateac .formcreateacctwo button{
+    margin-top: 10px;
+    margin-left: 90px;
+    font-size: 22px;
+    padding: 20px 15px;
+}
+/* ---------------------------------------------------- Create Account 2 ----------------------------------------------------- */
+/* ---------------------------------------------------- MyTickets ---------------------------------------------------------- */
+.menufilters{
+    width: 70%;
+    margin-left: 300px;
+}
+.menufilters h1{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    background-color: #34495e;
+    box-shadow: 0px 8px #2c3e50;
+    color: #fff;
+}
+.menufilters h5{
+    margin-top: 15px;
+    text-align: center;
+}
+.menufilters .formsearchtip{
+    margin-top: 30px;   
+}
+.menufilters .input-group input{
+    border: solid 2px #a29bfe;
+}
+.menufilters .input-group select{
+    border: solid 2px #a29bfe;
+}
+.menufilters .formsearchtip .input-group span{
+    background-color: #6c5ce7;
+    border: solid 2px #a29bfe;
+    color:#fff;
+}
+.menufilters .formsearchfilter{
+    margin-top: 20px;
+}
+.menufilters .formsearchfilter .row{
+    width: 80%;
+    margin: 5px auto;
+}
+.menufilters .formsearchfilter .row .col-md-3{
+    margin: 5px auto;
+}
+.menufilters .formsearchfilter .row .col-md-3 label{
+    width: 100%;
+}
+.menufilters .formsearchfilter .row .col-md-3 input{
+    border: solid 2px #a29bfe;
+}
+.menufilters .formsearchfilter .row .col-md-3 select{
+    border: solid 2px #a29bfe;
+}
+.menufilters .formsearchfilter .row .col-md-3 label{
+    background-color: #6c5ce7;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 1rem;
+}
+.menufilters .formsearchfilter .row button{
+    width: 40%;
+    margin: 15px auto;
+    padding: 8px 5px;
+    font-size: 24px;
+}
+.menufilters .formsearchfilter .row small{
+    text-align: center;
+    color: #7f8c8d;
+}
+.ticketstable{
+    width: 70%;
+    margin-left: 300px;
+}
+.ticketstable h2{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    color: #7f8c8d;
+}
+.ticketstable .table thead{
+    background-color: #2c3e50;
+    border: solid 1px #fff;
+    color:#fff;
+}
+.ticketstable .table thead th:nth-child(1){
+    text-align: center;
+    border-top-left-radius: 1rem;
+}
+.ticketstable .table thead th:nth-child(6){
+    text-align: center;
+}
+.ticketstable .table thead th:nth-child(7){
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+.ticketstable .table tbody tr{
+    height: 75px;
+}
+.ticketstable .table tbody tr th:nth-child(1){
+    text-align: center;
+}
+.ticketstable .table tbody tr td:nth-child(6){
+    text-align: center;
+}
+.ticketstable .table tbody tr td:nth-child(7){
+    text-align: center;
+}
+.ticketstable .table tbody tr th{
+    padding-top: 15px;
+}
+.ticketstable .table tbody tr td{
+    padding-top: 20px;
+}
+#refreshticketdata{
+    display: none;
+}
+/* ---------------------------------------------------- MyTickets ---------------------------------------------------------- */
+/* ------------------------------------------------------ Admin-main-page ---------------------------------------------------------- */
+/* ------------------------------------  header static ----------------------------------------- */
+.navmenu{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #6c5ce7;
+}
+.navmenu .menusystemadmin{
+    display: flex;
+    background-color: #6c5ce7;
+}
+.navmenu .menusystemadmin a{
+    margin-top: 5px;
+    margin-left: 70px;
+}
+.navmenu .menusystemadmin strong{
+    margin-top: 13px;
+    margin-left: 20px;
+    font-size: 22px;
+    color: #fff;
+}
+.navmenu .menusystemadmin small{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #b2bec3;
+}
+.navmenu .usernav{
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: 120px;
+    font-size: 20px;
+    text-align: right;
+}
+.navmenu .usernav ul{
+    width: 290px;
+    border: 2px solid #6c5ce7;
+}
+#notifications{
+    font-size: 24px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    border: none;
+    background: none;
+    color: #fff;
+}
+#notifications::after {
+    content: none;
+}
+#buttonsuser{
+    margin-right: 20px;
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+#notifications:hover, #buttonsuser:hover{
+    color: #a29bfe;
+}
+#userdropdown li{
+    color: #000;
+    padding-top: 5px;
+}
+.sidenav{
+    height: 100%;
+    width: 275px;
+    position: fixed;
+    z-index: 1; 
+    top: 60px;
+    left: 0;
+    background-color: #FFF;
+    overflow-x: hidden;
+    padding-top: 15px;
+}
+.sidenav .profileindex{
+    padding-top: 8px;
+    font-size: 18px;
+    border: 2px solid #a29bfe;
+    border-radius: 1rem;
+}
+.sidenav .profileindex img{
+    margin-right: 8px;
+}
+.sidenav .profileindex small{
+    font-size: 14px;
+    color: #b2bec3;
+    margin-left: 70px;
+}
+.sidenav h6{
+    margin-top: 20px;
+    padding: 10px 8px 6px 20px;
+    text-decoration: none;
+    color: #2d3436;
+    display: block;
+} 
+.sidenav a{
+    padding: 6px 8px 6px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #636e72;
+    display: block;
+}
+.sidenav span{
+    font-size: 10px;
+}
+.sidenav a:hover {
+    color: #6c5ce7;
+}
+.sidenav img{
+    margin-left: 20px;
+}
+/* ------------------------------------  header static ----------------------------------------- */
+/* ------------------------------------  dashboard ----------------------------------------- */
+.mininav{
+   margin-left: 300px;
+   margin-top: 40px;
+   font-size: 22px;
+}
+.mininav a{
+    text-decoration: none;
+}
+.buttonsdashboard{
+    margin-left: 300px;
+    display: flex;
+}
+.buttonsdashboard .css-button-rounded--sky{
+    max-width: 300px;
+    color: #fff;
+    padding: 30px 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+    border-radius: 5px;
+}
+.buttonsdashboard .css-button-rounded--sky:nth-child(1){
+    border: 2px solid #00b894;
+    background: #00b894;
+}
+.buttonsdashboard .css-button-rounded--sky:nth-child(1):hover{
+    background: #fff;
+    color: #00b894;
+}
+.buttonsdashboard .css-button-rounded--sky:nth-child(2){
+    border: 2px solid #fdcb6e;
+    background: #fdcb6e;
+}
+.buttonsdashboard .css-button-rounded--sky:nth-child(2):hover{
+    background: #fff;
+    color: #fdcb6e;
+}
+.buttonsdashboard .css-button-rounded--sky:nth-child(3){
+    border: 2px solid #e17055;
+    background: #e17055;
+}
+.buttonsdashboard .css-button-rounded--sky:nth-child(3):hover{
+    background: #fff;
+    color: #e17055;
+}
+.buttonsdashboard .css-button-rounded--sky:nth-child(4){
+    border: 2px solid #d63031;
+    background: #d63031;
+}
+.buttonsdashboard .css-button-rounded--sky:nth-child(4):hover{
+    background: #fff;
+    color: #d63031;
+}
+.ticketslist{
+    width: 70%;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.ticketslist h2{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    color: #7f8c8d;
+}
+.ticketslist .table thead{
+    background-color: #2c3e50;
+    border: solid 1px #fff;
+    color:#fff;
+}
+.ticketslist .table thead th:nth-child(1){
+    text-align: center;
+    border-top-left-radius: 1rem;
+}
+.ticketslist .table thead th:nth-child(5){
+    text-align: center;
+}
+.ticketslist .table thead th:nth-child(6){
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+.ticketslist .table tbody tr{
+    height: 75px;
+}
+.ticketslist .table tbody th{
+    text-align: center;
+}
+.ticketslist .table tbody td:nth-child(5){
+    text-align: center;
+}
+.ticketslist .table tbody td:nth-child(6){
+    text-align: center;
+}
+.ticketslist .table tbody tr th{
+    padding-top: 15px;
+}
+.ticketslist .table tbody tr td{
+    padding-top: 20px;
+}
+/* ------------------------------------  dashboard ----------------------------------------- */
+/* ------------------------------------  managesystem ----------------------------------------- */
+.buttonsmanagesystem{
+    width: 60%;
+    margin-left: 300px;
+    display: flex;
+}
+.buttonsmanagesystem .css-button-3d--sky {
+    width: 300px;
+    margin: 30px 20px;
+    color: #fff;
+    padding: 40px 15px;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
+}
+.buttonsmanagesystem .css-button-3d--sky:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+}
+.buttonsmanagesystem .css-button-3d--sky:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+}
+/* ------------------------------------  managesystem ----------------------------------------- */
+/* ------------------------------------  TicketSystem ----------------------------------------- */
+.allticket{
+    width: 70%;
+    margin-left: 300px;
+}
+.allticket h3{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    background-color: #34495e;
+    box-shadow: 0px 8px #2c3e50;
+    color: #fff;
+}
+.allticket h2{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    color: #7f8c8d;
+}
+.allticket .table thead{
+    background-color: #2c3e50;
+    border: solid 1px #fff;
+    color:#fff;
+}
+.allticket .table thead th:nth-child(1){
+    text-align: center;
+    border-top-left-radius: 1rem;
+}
+.allticket .table thead th:nth-child(6){
+    text-align: center;
+    min-width: 70px;
+}
+.allticket .table thead th:nth-child(10){
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+.allticket .table tbody tr{
+    height: 50px;
+}
+.allticket .table tbody tr th{
+    text-align: center;
+}
+.allticket .table tbody tr th{
+    padding-top: 15px;
+}
+.allticket .table tbody tr td{
+    padding-top: 20px;
+}
+.allticket .pagedivisor{
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* ------------------------------------  TicketSystem ----------------------------------------- */
+/* ------------------------------------------------------ Admin-main-page ---------------------------------------------------------- */

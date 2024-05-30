@@ -1,0 +1,43 @@
+<?php
+session_start();
+require __DIR__.'/../../config.php';
+include __DIR__.'/../../scripts/status.php';
+include __DIR__.'/../../scripts/verifyauth.php';
+
+$QueryDeleteExists = "DELETE FROM usertools WHERE tipotool=1 AND id_conta='".$_SESSION['DataAccount']['id']."'";
+mysqli_query($CONNECTION_DB, $QueryDeleteExists);
+
+$QueryInsertNotification = "INSERT INTO notifications(id_conta,descricao,tipo_notification,data_notification,visualizado) VALUES ('".$_SESSION['DataAccount']['id']."','Deletion in tools','4','".date('Y-m-d H:i:s')."','0')";
+mysqli_query($CONNECTION_DB, $QueryInsertNotification);
+
+/* Update Tools */
+unset($_SESSION['UserTools']);
+$QueryAnydeskUser = "SELECT login,pass,tipotool FROM usertools WHERE id_conta='".$_SESSION['DataAccount']['id']."'";
+$QueryAnydeskUserExec = mysqli_query($CONNECTION_DB, $QueryAnydeskUser);
+
+for($k=0; $k<mysqli_num_rows($QueryAnydeskUserExec); $k++){
+    $DataTools = mysqli_fetch_assoc($QueryAnydeskUserExec);
+    $_SESSION['UserTools'][$k][] = $DataTools['login'];
+    $_SESSION['UserTools'][$k][] = $DataTools['pass'];
+    $_SESSION['UserTools'][$k][] = $DataTools['tipotool'];
+}
+$_SESSION['UserTools']['CountTools'] = mysqli_num_rows($QueryAnydeskUserExec);
+/* Update Tools */
+
+/* Update Notifications */
+unset($_SESSION['DataNotifications']);
+$QueryNotifications = "SELECT descricao,tipo_notification FROM notifications WHERE visualizado='0' AND id_conta='".$_SESSION['DataAccount']['id']."' ORDER BY data_notification DESC";
+$QueryNotificationsExec = mysqli_query($CONNECTION_DB, $QueryNotifications);
+for($j=0; $j<mysqli_num_rows($QueryNotificationsExec); $j++){
+    $DataTools = mysqli_fetch_assoc($QueryNotificationsExec);
+    $_SESSION['DataNotifications'][$j][] = $DataTools['descricao'];
+    $_SESSION['DataNotifications'][$j][] = $DataTools['tipo_notification'];
+}
+$_SESSION['DataNotifications']['CountNotifications'] = mysqli_num_rows($QueryNotificationsExec);
+/* Update Notifications */
+
+$_SESSION['Msg'] = '<div class="alert alert-success" role="alert"><i class="fa-solid fa-circle-check fa-beat"></i> Information has been successfully saved to the database!</div>';
+header("Location: ../../pages/Corporate_Page.php");
+exit();
+
+mysqli_close($CONNECTION_DB);

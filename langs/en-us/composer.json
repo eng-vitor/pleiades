@@ -1,0 +1,7 @@
+{
+    "require": {
+        "twbs/bootstrap": "5.2.2",
+        "daveearley/daves-email-validation-tool": "^1.2",
+        "fortawesome/font-awesome": "^6.4"
+    }
+}
